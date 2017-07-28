@@ -49,6 +49,7 @@ export class MyApp {
       .subscribe((msg) => {
         alert(msg.title + ': ' + msg.text);
       });
+
   }
 }
 
